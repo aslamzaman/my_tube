@@ -19,9 +19,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
+        <>
+
+          <div className="mx-4 my-2 py-2 font-bold grid grid-cols-6 border-b-2 border-gray-300 bg-gray-200">
+            <a className="mx-8 text-center pb-2 text-xm underline" href="https://imagetoprompt.org/" target="_blank">ImageToPrompt</a>
+            <a className="mx-8 text-center pb-2 text-xm underline" href="https://www.pixify.io/studio/free-ai-keywording-tool" target="_blank">Pixify</a>
+            <a className="mx-8 text-center pb-2 text-xm underline" href="https://vheer.com/app/image-to-prompt" target="_blank">Vheer Promt</a>
+            <a className="mx-8 text-center pb-2 text-xm underline" href="https://aiarabai.com/en/free-ai-tools/ai-image-describer/" target="_blank">Arab AI</a>
+            <a className="mx-8 text-center pb-2 text-xm underline" href="https://www.youtube.com/@DeandraHouse" target="_blank">Interior Design</a>
+            <a className="mx-8 text-center pb-2 text-xm underline" href="https://www.youtube.com/@LuxuryHomesDecor" target="_blank">Exterior Design</a>
+          </div>
+          <p className="text-center text-blue-400">Here are 15 image text prompts for voice over subtitles. Keep the original language of each and make it more beautiful in 170 to 180 characters.</p>
+        </>
         {children}
       </body>
     </html>
