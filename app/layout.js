@@ -30,7 +30,14 @@ export default function RootLayout({ children }) {
             <a className="mx-8 text-center pb-2 text-xm underline" href="https://www.youtube.com/@DeandraHouse" target="_blank">Interior Design</a>
             <a className="mx-8 text-center pb-2 text-xm underline" href="https://www.youtube.com/@LuxuryHomesDecor" target="_blank">Exterior Design</a>
           </div>
-          <p className="text-center text-blue-400">Here are 15 image text prompts for voice over subtitles. Keep the original language of each and make it more beautiful in 170 to 180 characters.</p>
+          <p className="px-4 text-start text-blue-400">Here are 15 image text prompts for voice-over subtitles. Keep the original language of each and refine it into understandable language in 170 to 180 characters.</p>
+          <br />
+          <p className="px-4 text-start text-blue-400">Below is a text prompt for an image to create a YouTube video clip. <br />
+Please provide a text prompt for creating 15 more such images. <br /> <br />
+
+Base Prompt: -------- 
+</p>
+
         </>
         {children}
       </body>
